@@ -14,7 +14,7 @@ function registerSwipe(q, radio) {
 
 
   function handleDiff(diffX, diffY) {
-    if (Math.sqrt(diffX * diffX + diffY * diffY) < 100) {
+    if (Math.sqrt(diffX * diffX + diffY * diffY) < 10) {
       return;
     }
     if (Math.abs(diffX) > Math.abs(diffY)) {
